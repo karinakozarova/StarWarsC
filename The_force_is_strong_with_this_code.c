@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 void Star_Wars_logo(){
     //This function prints the Star Wars logo with a line before and after it
                  printf("\n");
