@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main(){
 
-
+void Star_Wars_logo(){
+    //This function prints the Star Wars logo with a line before and after it
+                 printf("\n");
                  printf("                  _________________  ___      ______            \n");
                  printf("                 /                | /   \\    |   _  \\           \n");
                  printf("                |   (-----|  |----`/  ^  \\   |  |_)  |          \n");
@@ -15,5 +16,11 @@ int main(){
                  printf("               \\            / /  /_\\  \\  |      //  \\   \\        \n");
                  printf("                \\    /\\    / /  _____  \\ |  |  \\  ---)   |       \n");
                  printf("                 \\__/  \\__/ /__/     \\__\\|__|   `._______/        \n");
-return 0;
+                 printf("\n");
+
+}
+
+int main(){
+    Star_Wars_logo();
+    return 0;
 }
